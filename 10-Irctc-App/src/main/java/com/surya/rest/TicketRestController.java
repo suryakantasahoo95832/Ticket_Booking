@@ -20,6 +20,9 @@ public class TicketRestController {
 	BookingServiceImpl bpl;
 int a=56;
 	
+
+	String s="Surya";
+
 	@PostMapping("/bookTct")
 	public ResponseEntity<Ticket> bookTheTicket(@RequestBody Passenger p){
 		Ticket ticket = bpl.bookTicket(p);
