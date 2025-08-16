@@ -18,7 +18,7 @@ public class TicketRestController {
 
 	@Autowired
 	BookingServiceImpl bpl;
-	
+	String s="Surya";
 	@PostMapping("/bookTct")
 	public ResponseEntity<Ticket> bookTheTicket(@RequestBody Passenger p){
 		Ticket ticket = bpl.bookTicket(p);
