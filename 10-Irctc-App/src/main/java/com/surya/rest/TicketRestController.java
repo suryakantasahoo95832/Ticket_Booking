@@ -18,6 +18,7 @@ public class TicketRestController {
 
 	@Autowired
 	BookingServiceImpl bpl;
+int a=56;
 	
 	@PostMapping("/bookTct")
 	public ResponseEntity<Ticket> bookTheTicket(@RequestBody Passenger p){
