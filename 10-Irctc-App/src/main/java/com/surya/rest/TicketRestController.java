@@ -18,7 +18,6 @@ public class TicketRestController {
 
 	@Autowired
 	BookingServiceImpl bpl;
-int a=56;
 	
 
 	String s="Surya";
